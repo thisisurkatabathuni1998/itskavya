@@ -1,0 +1,48 @@
+{
+	"basics":{
+		"name":"katabathuni",
+		"role":"mean-stack",
+		"mobile":"+91 9998887771",
+		"email":"kkavyasdiary@gmail.com"
+    },
+    "career":{
+    	"info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"
+    },
+    "education":[
+    	{
+    		"degree":"B-Tech(computer science and engineering)",
+    		"institute":"vignan nirula",
+    		"data":["2016-2020","90%"]
+    	},
+    	{
+    	"degree":"diploma(CHE)",
+    		"institute":"SUVR & SR",
+    		"data":["2014-2017","92%"]	
+    	},
+    	{
+    	"degree":"s.s.c",
+    		"institute":"narayana",
+    		"data":["2014","95%"]	
+    	}
+    	],
+    "skills":[
+    {
+    	"title":"programming languages",
+    	"content":["phython","c","R","c++","java"]
+    },
+    {
+        "title":"Data bases",
+    	"content":["Sql","Oracle","mySql"]
+
+    },
+    {
+       "title":"Web Technologies",
+    	"content":["HTML","XML","Javascript","css"] 
+    },
+    {
+        "title":"Operating systems",
+    	"content":["Windows","Linx","unix"]
+     }
+    ]
+
+ }   

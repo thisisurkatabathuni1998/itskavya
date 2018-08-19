@@ -1,0 +1,135 @@
+table{
+	width:100;
+	border-collapse: collapse;
+}
+tr:nth-child(even){
+	background: #ddd;
+	box-shadow: 3px 3px 3px #ddd;
+}
+td,
+th{
+	padding: 1%;
+}
+.skDiv{
+	width:100%;
+	border-left: 3px solid #0E4DBA;;
+	padding: 1%;
+	margin: 1%;
+}
+span{
+	background: #0E4DBA;
+	color: #fff;
+	border:1px solid #082D6E;
+	box-shadow: 3px 3px 3px #ddd;
+	margin:1%;
+	padding: 1%;
+	border-radius: 5px;
+
+}
+
+.parent{
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+}
+
+.child1{
+	width:30%;
+	border: 1px solid #ddd;
+	padding:1%;
+	margin:1%;
+	text-align:center;
+}
+.child2{
+	width:70%;
+	border: 1px solid #ddd;
+	padding:1%;
+	margin:1%;
+}
+.profile{
+	display:block;
+	margin-left: auto;
+	margin-right:auto;
+}
+h2{
+	text-align: center;
+	color:#542B92;
+}
+a{
+	text-decoration: none;
+	font-size: 55;
+	word-wrap: break-word;
+}
+/*small screens*/
+@media only screen and (min-width:320px) and (max-width:480px){
+.parent{
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+}
+
+.child1{
+	width:100%;
+	border: 1px solid #ddd;
+	padding:1%;
+	margin:1%;
+	text-align:center;
+	background-color: violet;
+}
+.child2{
+	width:100%;
+	border: 1px solid #ddd;
+	padding:1%;
+	margin:1%;
+	background-color: skyblue;
+}
+}
+/*medium screens*/
+@media only screen and (min-width:481px) and (max-width:768px){
+.parent{
+	display: flex;
+	flex-direction:row;
+    justify-content: center;
+}
+
+.child1{
+	width:40%;
+	border: 1px solid #ddd;
+	padding:1%;
+	margin:1%;
+	text-align:center;
+	background-color: yellow;
+}
+.child2{
+	width:60%;
+	border: 1px solid #ddd;
+	padding:1%;
+	margin:1%;
+	background-color: green;
+}
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+.parent{
+	display: flex;
+	flex-direction:column;
+    justify-content: center;
+}
+
+.child1{
+	width:100%;
+	border: 1px solid #ddd;
+	padding:1%;
+	margin:1%;
+	text-align:center;
+	background-color: blue;
+}
+.child2{
+	width:100%;
+	border: 1px solid #ddd;
+	padding:1%;
+	margin:1%;
+	background-color: grey;
+}
+}
+
+
